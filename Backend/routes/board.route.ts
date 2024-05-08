@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import BoardModel from "../models/board.model";
 import TaskModel from "../models/task.model";
 import SubtaskModel from "../models/subtask.model";
-import auth, { AuthRequest } from "./../middleware/auth.middleware";
+import auth, { AuthRequest } from "../middleware/auth.middleware";
 
 import dotenv from "dotenv";
 

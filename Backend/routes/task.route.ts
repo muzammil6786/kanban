@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
-import TaskModel from "./../models/task.model";
+import TaskModel from "../models/task.model";
 import mongoose from "mongoose";
-import auth, { AuthRequest } from "./../middleware/auth.middleware";
+import auth, { AuthRequest } from "../middleware/auth.middleware";
 import dotenv from "dotenv";
 import BoardModel from "../models/board.model";
 import SubtaskModel from "../models/subtask.model";
